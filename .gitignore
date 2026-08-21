@@ -1,0 +1,25 @@
+# Real VPN configuration files (contain server details, certs, keys)
+*.ovpn
+!config/example.ovpn
+
+# Keys, certificates, secrets
+*.key
+*.pem
+*.crt
+*.p12
+credentials*
+secrets*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OpenVPN logs / runtime state
+*.log
+openvpn.log
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
